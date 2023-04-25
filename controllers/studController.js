@@ -1,6 +1,6 @@
 const db = require('../models/index');
 
-// create student
+// create new student 
 const createStud=async(req,res)=>{
     let studData = {
         firstName: req.body.firstName,
